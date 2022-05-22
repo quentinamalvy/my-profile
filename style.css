@@ -1,0 +1,90 @@
+body {
+    background-color: #8FC0A9;
+    color: #FAF3DD;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+h1,h2 {
+	color: #C8D5B9;
+	font-family: 'Bebas Neue';
+	font-size: 35px;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-family: 'Bebas Neue';
+}
+a:hover {
+	color: #FFD59E;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white {
+	background-color: #68B0AB;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-red {
+	background-color: #CEB992;
+	color: #FFFF;
+	padding: 12px 15px 8px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+
+.btn-red:hover {
+	background-color: #FFFF;
+	color: #CEB992;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #8F8787;
+}
+
+.list-inline i:hover {
+	color: #CEB992;
+}
+
+#introduction p {
+	margin-bottom: 30px;
+}
